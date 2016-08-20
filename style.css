@@ -6,15 +6,19 @@ body {
 
 .nav {
 	display: flex;
+	height: 56px;
 }
 
 .nav-item {
 	width: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .main {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .left-main {
@@ -22,7 +26,26 @@ body {
 }
 
 .center-main {
+	display: flex;
 	width: 50%;
+}
+
+.cats {
+	flex-wrap: wrap;
+}
+
+.cat {
+	width: 10%;
+}
+
+.cats-desc {
+	self-align: flex-end;
+	width: 100%;
+}
+
+.me {
+	display: flex;
+	flex-direction: column;
 }
 
 .right-main {
@@ -35,6 +58,38 @@ body {
 
 .center {
 	justify-content: center;
+}
+
+.padding-right {
+	padding-right: 1%;
+}
+
+.padding-top {
+	padding-top: 1%;
+}
+
+.padding-bottom {
+	padding-bottom: 1%;
+}
+
+.padding-left {
+	padding-left: 1%;
+}
+
+.margin-right {
+	margin-right: 1%;
+}
+
+.margin-top {
+	margin-top: 1%;
+}
+
+.margin-bottom {
+	margin-bottom: 1%;
+}
+
+.margin-left {
+	margin-left: 1%;
 }
 
 .border-nav-item {
