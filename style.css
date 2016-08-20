@@ -1,6 +1,7 @@
 body {
 	display: flex;
 	font-size: 16px;
+	flex-direction: column;
 }
 
 .nav {
@@ -8,15 +9,44 @@ body {
 }
 
 .nav-item {
-	flex: 10%;
+	width: 10%;
+}
+
+.main {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-main {
+	width: 20%;
+}
+
+.center-main {
+	width: 50%;
+}
+
+.right-main {
+	width: 20%;
+}
+
+.align-center {
+	text-align: center;
 }
 
 .center {
 	justify-content: center;
 }
 
+.border-nav-item {
+	border: 1px solid red;
+}
+
 .bg-nav {
 	background-color: #00A79D !important;
+}
+
+.bg-nav-item {
+	background-color: #e3e3e3 !important;
 }
 
 .bg-main {
