@@ -8,11 +8,39 @@ body {
 }
 
 .nav-item {
+	flex: 10%;
+}
+
+.center {
+	justify-content: center;
 }
 
 .bg-nav {
 	background-color: #00A79D !important;
+}
+
+.bg-main {
+	background-color: #3D4A51 !important;
+}
+
+.bg-white {
+	background-color: white !important;
+}
+
+.bg-footer {
+	background-color: #99171D !important;
+}
+
+.white {
 	color: white;
+}
+
+.black {
+	color: black;
+}
+
+.dark-grey {
+	color: dark-grey;
 }
 
 .h1 {
