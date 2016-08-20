@@ -12,8 +12,6 @@ body {
 .nav-item {
 	width: 10%;
 	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 .main {
@@ -40,6 +38,7 @@ body {
 
 .cats-desc {
 	self-align: flex-end;
+	display: flex;
 	width: 100%;
 }
 
@@ -52,11 +51,16 @@ body {
 	width: 20%;
 }
 
-.align-center {
-	text-align: center;
+footer {
+	display:flex;
+	height: 55px;
 }
 
-.center {
+.align-center {
+	align-items: center;
+}
+
+.justify-center {
 	justify-content: center;
 }
 
@@ -94,6 +98,10 @@ body {
 
 .border-nav-item {
 	border: 1px solid red;
+}
+
+.box-shadow {
+	rgba(119, 17, 17, 0.1),0px 0px 8px 1px rgba(36, 65, 65, 0.1) !important;
 }
 
 .bg-nav {
