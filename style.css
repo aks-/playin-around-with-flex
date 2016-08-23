@@ -101,7 +101,7 @@ footer {
 }
 
 .box-shadow {
-	rgba(119, 17, 17, 0.1),0px 0px 8px 1px rgba(36, 65, 65, 0.1) !important;
+	box-shadow: rgba(119, 17, 17, 0.1),0px 0px 8px 1px rgba(36, 65, 65, 0.1) !important;
 }
 
 .bg-nav {
